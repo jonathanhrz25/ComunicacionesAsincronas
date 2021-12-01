@@ -22,7 +22,7 @@ async function muestraregistros() {
     //RegistrosHTML.innerHTML = RegistrosHTML.innerHTML + arrayRegistros.nombre + " " + arrayRegistros.apellido;
 
     arrayRegistros.forEach(function (item, index) {
-        RegistrosHTML.innerHTML = RegistrosHTML.innerHTML + "Nombre: " + item.nombre + " " + "=======> UserName del Jugador: " + item.userName +" ==== Numero de Telefono:" + item.telefono + "<br>";
+        RegistrosHTML.innerHTML = RegistrosHTML.innerHTML + "=> Nombre: " + item.nombre + " <br> " + "UserName del Jugador: " + item.userName + "<br>" + "Numero de Telefono:" + item.telefono + "<br> <br>";
 
     });
 
